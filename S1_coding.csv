@@ -1,0 +1,51 @@
+ID,Work,Year,Family,Peer-reviewed (Y) / Preprint (P),Representation,Learning,Eval. target,Human data used for TRAINING,D: cognitive/motor inspiration in design,J: human judgments of outputs,P: process vs recorded human data,B: population-level behavioural comparison,Basis / note
+S01,Sketch-RNN,2018,Sketch,Y,pen offsets+states,"SL (VAE,RNN)",O,process,N,N,N,N,QuickDraw stroke sequences; likelihood/qualitative
+S02,SPIRAL,2018,Sketch/paint,Y,rendering commands,RL (adversarial reward),O,outputs,N,N,N,N,reward from discriminator on images
+S03,Improved SPIRAL,2019,Sketch/paint,P,rendering commands,RL,O,outputs,N,N,N,N,preprint
+S04,Learning to Paint,2019,Paint,Y,parametric strokes,model-based RL,O,outputs,N,N,N,N,explicitly no human painter data
+S05,Teaching Robots to Draw,2019,Sketch/writing,Y,stroke actions,SL from demonstrations,P,process,N,N,Y,N,stroke order/direction vs demonstrations
+S06,BezierSketch,2020,Sketch,Y,Bezier strokes,SL,O,process,N,N,N,N,trained on human stroke data
+S07,CoSE,2020,Sketch,Y,stroke embeddings,"SL, relational","O,S",process,N,N,N,N,diagram stroke data
+S08,DoodlerGAN,2021,Sketch,Y,parts,adversarial,O,outputs,N,Y,N,N,human preference study; CS/SDS
+S09,Stylized Neural Painting,2021,Paint,Y,parametric strokes,optimisation,O,none,N,N,N,N,per-image parameter search
+S10,Paint Transformer,2021,Paint,Y,stroke set,self-training,O,none,N,N,N,N,no dataset needed
+S11,Intelli-Paint,2022,Paint,Y,brushstroke sequence,painting agent,"O,P",?,Y,Y,N,N,human-intelligible sequences; user study
+S12,CLIPasso,2022,Sketch,Y,stroke set,optimisation (CLIP),O,none,N,Y,N,N,per-image optimisation; J: recognition study with 121 participants (full text).
+S13,ChiroDiff,2023,Sketch/writing,Y,point sequences,diffusion,O,process,N,N,N,N,
+S14,SketchKnitter,2023,Sketch,Y,points+pen states,diffusion,O,process,N,N,N,N,
+S15,Inverse Painting,2024,Paint,Y,canvas sequence,"diffusion, autoregressive",P,process,N,Y,Y,N,"trained on artists' videos; J: user study with 33 participants rating generated painting videos; P: comparison with 29 validation paintings from real videos (LPIPS over time, DDC with DTW, duration and progression order) (arXiv full text)."
+S16,SketchAgent,2025,Sketch,Y,string stroke actions,in-context LLM,O,none,?,Y,N,N,human judgments
+S17,LineDrawer,2025,Line art,Y,stroke order,hierarchical optimisation,P,process,Y,Y,Y,N,"claims human drawing mechanics/perception; abstract reports user studies of generated animations; Training: 13 artist drawings with 2,920 strokes (paths, timestamps); P: reconstructed progression compared with reference sequences (frame-wise recall). Does not establish equivalence of motor gestures."
+S18,Sketch-HARP,2026,Sketch,Y,hierarchical strokes,SL autoregressive,O,process,Y,Y,N,N,D: architecture explicitly imitates human drawing stages; J: evaluation with 51 volunteers (AAAI full text).
+S19,ProcessPainter,2024,Paint,Y,frame sequence,diffusion,P,process,N,Y,N,N,"J: 44 participants judged painting sequences (arXiv full text).; Published at SIGGRAPH Asia 2024 (doi:10.1145/3680528.3687596). P=N: quantitative metrics (MSE, LPIPS, L1) on final images; 44-participant study is a judgment (J), not a quantitative comparison with recorded human processes."
+S20,VideoSketcher,2026,Sketch,P,video frames,video diffusion + LLM,"O,P",process,N,Y,Y,N,"preprint; accumulation curve vs humans; J: 41 participants compared generated videos (arXiv v2). P: aggregated temporal validation (recognition over drawing time, Fig. 6; cumulative pixel progression vs human QuickDraw sequences, Fig. 22, App. B.2). Does not show matching stroke order, gestures or planning."
+H01,Graves RNN,2013,Writing,P,pen offsets,SL (RNN-MDN),O,process,N,N,N,N,"foundation, preprint"
+H02,Zhang et al.,2018,Writing,Y,point sequences,SL (RNN),O,process,N,N,N,N,legibility by recogniser
+H03,DeepWriting,2018,Writing,Y,ink sequences,SL (VAE),O,process,N,Y,N,N,J: user study with 10 participants on generated and edited handwriting (CHI full text).
+H04,Decoupled Style Descriptors,2020,Writing,Y,ink sequences,SL,O,process,N,Y,N,N,88% preference
+H05,Luhman diffusion,2020,Writing,P,ink sequences,diffusion,O,process,N,N,N,N,preprint
+H06,DeepWriteSYN,2021,Writing,Y,short-term segments,SL,O,process,N,N,N,N,
+H07,Write Like You,2021,Writing,Y,trajectories,meta-learning,O,process,N,Y,N,N,J: two human studies in the official supplementary material (Eurographics).
+H08,SDT,2023,Writing,Y,trajectories,"SL, contrastive",O,process,N,N,N,N,
+H09,Elegantly Written,2024,Writing,Y,trajectories,SL,O,process,Y,?,N,N,mimics writing process
+H10,TrInk,2025,Writing,Y,ink points,SL (Transformer),O,process,N,N,N,N,CER/WER
+H11,DiffInk,2026,Writing,Y,latent trajectories,latent diffusion,O,process,N,N,N,N,
+H12,iDeLog,2020,Writing,Y,sigma-lognormals,analytic fitting,P,none,Y,N,Y,N,kinematic theory; velocity fit
+H14,InkSight,2025,Trajectory recovery,Y,digital ink,vision-language,"O,P",process,N,Y,N,N,"67% judged human-traced; P=N: evaluations cover human judgment, recognition and content fidelity, not a direct comparison of stroke order or kinematics with human trajectories."
+H15,FINet,2025,Trajectory recovery,Y,trajectories,SL,P,process,N,N,Y,N,vs recorded trajectories
+H16,Nagamatsu et al.,2026,Trajectory recovery,P,trajectories,diffusion,P,process,N,N,Y,N,preprint
+A20,Chen et al. (ACCV),2022,Trajectory recovery,Y,trajectories,SL,P,process,N,N,Y,N,proposes trajectory metrics
+B01,Ellis graphics programs,2018,Programs,Y,graphics programs,neural + synthesis,S,none,N,N,N,N,synthetic training
+B02,DreamCoder,2021,Programs,Y,program library,wake-sleep,S,none,?,N,N,N,
+B03,Recursive Neural Programs,2023,Programs,Y,part-whole trees,variational,S,outputs,Y,N,N,N,sensory-motor programs
+B04,CSGNet,2018,Programs,Y,CSG programs,SL + RL,S,none,N,N,N,N,
+C01,BPL,2015,Programs,Y,stroke programs,Bayesian induction,"O,S",process,Y,Y,N,Y,visual Turing test; human data; foundation
+C10,GNS,2021,Programs,Y,stroke programs,neuro-symbolic,"O,S",process,Y,?,N,?,
+C07,Tian et al.,2020,Programs,Y,motor programs,program induction,"P,S",?,Y,N,Y,Y,human drawing experiment
+C04,Fan et al. sketcher,2020,Sketch,Y,sketch selection,CNN + probabilistic program,O,outputs,Y,N,N,Y,fit to human reference-game data
+C08,Zhou et al.,2024,Programs,Y,part programs,Bayesian induction,"O,S",none,Y,N,N,Y,human classification and generation
+C09,MLC (transversal),2023,Symbolic,Y,symbol sequences,meta-learning,O,?,Y,N,N,Y,cross-domain; human accuracy and errors
+K01,LACE,2021,Compositional,Y,latent energies,EBM,O,outputs,N,N,N,N,contrast
+K02,Composable Diffusion,2022,Compositional,Y,conditioning terms,diffusion,O,outputs,N,N,N,N,contrast
+K03,Composer,2023,Compositional,Y,image factors,diffusion,O,outputs,N,N,N,N,contrast
+H17,Wang et al. (dual-domain priors),2026,Trajectory recovery,Y,trajectories,"SL (hierarchical, contrastive priors)",P,process,Y,Y,Y,N,"D: introduction motivates the hierarchical design by human planning of global structure before local movements; J: user study with 50 volunteers (readability, human-likeness); P: DTW/LDTW/JSD and kinematic measures vs recorded trajectories (full text, Springer)."

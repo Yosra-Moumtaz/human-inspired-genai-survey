@@ -1,0 +1,19 @@
+Item,n
+arXiv: total hits (4 queries),496
+arXiv: unique records,484
+arXiv: Already in corpus,22
+arXiv: Already in corpus (preprint title),2
+arXiv: Included: generative approach,80
+arXiv: Excluded,375
+arXiv: Included: other,5
+"OpenAlex: total hits (4 queries, CS field)",1626
+OpenAlex: unique records,1598
+OpenAlex: Already in corpus,31
+OpenAlex: Duplicate of arXiv record,285
+OpenAlex: Excluded,1164
+OpenAlex: Included: generative approach,82
+OpenAlex: Unresolved,24
+OpenAlex: Duplicate,7
+OpenAlex: Included: other,5
+New generative approaches (arXiv + OpenAlex),162
+New other included works,10

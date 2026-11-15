@@ -1,0 +1,59 @@
+Search of origin,Title (as exported),Year (as exported),Screening decision,Corpus ID,Exclusion reason
+Consensus search 3 (evaluation methodologies),Composer: Creative and Controllable Image Synthesis with Composable Conditions,2023,Retained at screening,K03,
+Consensus search 2 (complementary areas),Human-like systematic generalization through a meta-learning neural network,2023,Retained at screening,C09,
+Consensus search 3 (evaluation methodologies),Controllable and Compositional Generation with Latent-Space Energy-Based Models,2021,Retained at screening,K01,
+Consensus search 2 (complementary areas),Compositional Generative Modeling: A Single Model is Not All You Need,2024,Retained at screening,K05,
+Consensus search 3 (evaluation methodologies),What Drives Compositional Generalization in Visual Generative Models?,2025,Retained at screening,K08,
+Consensus search 1 (foundational and representative methods),Learning to Paint With Model-Based Deep Reinforcement Learning,2019,Retained at screening,S04,
+Consensus search 1 (foundational and representative methods),Deep Learning for Free-Hand Sketch: A Survey,2020,Retained at screening,Y01,
+Consensus search 1 (foundational and representative methods),Learning abstract structure for drawing by efficient motor program induction,2020,Retained at screening,C07,
+Consensus search 1 (foundational and representative methods),Drawing and Recognizing Chinese Characters with Recurrent Neural Network,2016,Retained at screening,H02,
+Consensus search 2 (complementary areas),DeepWriteSYN: On-Line Handwriting Synthesis via Deep Short-Term Representations,2020,Retained at screening,H06,
+Consensus search 2 (complementary areas),Write Like You: Synthesizing Your Cursive Online Chinese Handwriting via Metric‐based Meta Learning,2021,Retained at screening,H07,
+Consensus search 3 (evaluation methodologies),FINet: Handwriting trajectory reconstruction of Chinese characters based on the font imitate network,2024,Retained at screening,H15,
+Consensus search 2 (complementary areas),Recursive neural programs: A differentiable framework for learning compositional part-whole hierarchies and image grammars,2022,Retained at screening,B03,
+Consensus search 3 (evaluation methodologies),Handwriting Trajectory Recovery with Diffusion Models,2026,Retained at screening,H13,
+Consensus search 3 (evaluation methodologies),Hierarchical offline-to-online Chinese handwriting trajectory reconstruction via dual-domain priors,2026,Retained at screening,H17,
+Consensus search 1 (foundational and representative methods),Pros and Cons of GAN Evaluation Measures,2018,Retained at screening,E02,
+Consensus search 3 (evaluation methodologies),Pros and Cons of GAN Evaluation Measures: New Developments,2021,Retained at screening,E03,
+Consensus search 3 (evaluation methodologies),Exposing flaws of generative model evaluation metrics and their unfair treatment of diffusion models,2023,Retained at screening,E04,
+Consensus search 1 (foundational and representative methods),Human-level concept learning through probabilistic program induction,2015,Retained at screening,C01,
+Consensus search 1 (foundational and representative methods),Generating Sequences With Recurrent Neural Networks,2013,Retained at screening,H01,
+Consensus search 1 (foundational and representative methods),BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry,2024,Excluded at screening,,"Off-topic: CAD boundary-representation generation, outside visuo-motor scope"
+Consensus search 3 (evaluation methodologies),Compositional Abilities Emerge Multiplicatively: Exploring Diffusion Models on a Synthetic Task,2023,Retained at screening,K04,
+Consensus search 2 (complementary areas),Compositional diversity in visual concept learning,2023,Retained at screening,C08,
+Consensus search 2 (complementary areas),Compositional Program Generation for Systematic Generalization,2023,Excluded at screening,,Language domain without human comparison; transversal criterion not met
+Consensus search 2 (complementary areas),A neural mechanism for compositional structure transfer in humans,2026,Excluded at screening,,Neuroscience study without a generative model
+Consensus search 2 (complementary areas),Generative Agents: Interactive Simulacra of Human Behavior,2023,Excluded at screening,,Off-topic: language-model agents
+Consensus search 1 (foundational and representative methods),BézierSketch: A generative model for scalable vector sketches,2020,Retained at screening,S06,
+Consensus search 1 (foundational and representative methods),Unsupervised Doodling and Painting with Improved SPIRAL,2019,Retained at screening,S03,
+Consensus search 1 (foundational and representative methods),PaintBot: A Reinforcement Learning Approach for Natural Media Painting,2019,Excluded at screening,,Venue could not be verified (preprint only)
+Consensus search 1 (foundational and representative methods),Stroke-based Rendering: From Heuristics to Deep Learning,2022,Retained at screening,Y05,
+Consensus search 1 (foundational and representative methods),Learning-based Artificial Intelligence Artwork: Methodology Taxonomy and Quality Evaluation,2024,Retained at screening,Y04,
+Consensus search 2 (complementary areas),Generative adversarial networks for handwriting image generation: a review,2024,Retained at screening,Y06,
+Consensus search 1 (foundational and representative methods),Neural Trajectory Analysis of Recurrent Neural Network In Handwriting Synthesis,2018,Excluded at screening,,Analysis of an existing model; no generative approach evaluated
+Consensus search 2 (complementary areas),A Harmonic Approach to Handwriting Style Synthesis Using Deep Learning,2024,Excluded at screening,,Offline handwriting images; no sequential or structured representation
+Consensus search 3 (evaluation methodologies),Trajectory-based Handwritting Recognition via Spatiotemporal Convolution on Distance Matrix,2024,Excluded at screening,,Recognition-only
+Consensus search 2 (complementary areas),HANDWRITING SYNTHESIS WITH DEEP LEARNING,2020,Excluded at screening,,Venue and DOI could not be verified
+Consensus search 3 (evaluation methodologies),How Faithful is your Synthetic Data? Sample-level Metrics for Evaluating and Auditing Generative Models,2021,Excluded at screening,,Generic synthetic-data metrics without sequential or human-process component; redundant with retained evaluation studies
+Consensus search 2 (complementary areas),Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning,2021,Excluded at screening,,"Off-topic: generalisation in reinforcement learning, not generation"
+Consensus search 3 (evaluation methodologies),Generative Models,2019,Excluded at screening,,Off-topic: philosophy of science
+Consensus search 3 (evaluation methodologies),Evaluation Metrics for Generative Models: An Empirical Study,2024,Excluded at screening,,Generic image metrics without sequential or human-process component; redundant with retained evaluation studies
+Consensus search 3 (evaluation methodologies),g-Distance: On the comparison of model and human heterogeneity.,2025,Retained at screening,E05,
+Consensus search 3 (evaluation methodologies),TrInk: Ink Generation with Transformer Network,2025,Retained at screening,H10,
+Consensus search 3 (evaluation methodologies),Evaluating Generative Models for Tabular Data: Novel Metrics and Benchmarking,2025,Excluded at screening,,Off-topic: tabular data
+Consensus search 3 (evaluation methodologies),"Cat, Rat, Meow: On the Alignment of Language Model and Human Term-Similarity Judgments",2025,Excluded at screening,,Off-topic: language-model similarity judgments
+Consensus search 3 (evaluation methodologies),Evaluating Generative AI as a Triage Tool in Aligned Yet Divergent Investment Decision-Making,2026,Excluded at screening,,Off-topic: finance
+Consensus search 1 (foundational and representative methods),Concept learning as motor program induction: A large-scale empirical study,2012,Excluded at screening,,Before 2016; superseded by the retained foundational work (Lake et al. 2015)
+Consensus search 1 (foundational and representative methods),Artist Agent: A Reinforcement Learning Approach to Automatic Stroke Generation in Oriental Ink Painting,2012,Excluded at screening,,Before 2016; not foundational
+Consensus search 2 (complementary areas),Impedance-Based Gaussian Processes for Modeling Human Motor Behavior in Physical and Non-Physical Interaction,2019,Excluded at screening,,Motor control in physical interaction; no visual or writing output
+Consensus search 2 (complementary areas),A computational theory for the production of limb movements.,2021,Excluded at screening,,Motor-control theory without a generative visual or writing model
+Consensus search 2 (complementary areas),Generative Behaviors as Key Targets for Cognitive Models,2026,Retained at screening,C06,
+Consensus search 2 (complementary areas),A Computational Model for Redundant Human Three-Dimensional Pointing Movements: Integration of Independent Spatial and Temporal Motor Plans Simplifies Movement Dynamics,2007,Excluded at screening,,Before 2016; not foundational
+Consensus search 2 (complementary areas),Imitating Human Behaviour with Diffusion Models,2023,Retained at screening,E06,
+Consensus search 1 (foundational and representative methods),Learning Generative Models of 3D Structures,2020,Excluded at screening,,"3D structure generation, outside visuo-motor scope"
+Consensus search 3 (evaluation methodologies),Deep Generative Models for Synthetic Data: A Survey,2023,Excluded at screening,,Off-topic: generic synthetic-data survey
+Consensus search 3 (evaluation methodologies),Grounding deep neural network predictions of human categorization behavior in understandable functional features: The case of face identity,2021,Excluded at screening,,"Off-topic: categorisation, no generation"
+Consensus search 2 (complementary areas),Internal models for motor control and trajectory planning.,1999,Excluded at screening,,Before 2016; not foundational
+Consensus search 2 (complementary areas),Computational approaches to motor control.,2001,Excluded at screening,,Before 2016; not foundational
+Consensus search 1 (foundational and representative methods),Bayesian Modeling of Human Concept Learning,1998,Excluded at screening,,Before 2016; not foundational

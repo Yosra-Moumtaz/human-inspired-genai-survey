@@ -1,0 +1,7 @@
+Item,Description
+Inclusion criteria,"Published Jan 2016 - Nov 2026; (a) generates or reconstructs a 2D visual or motor output (drawing, painting, handwriting, trajectory); (b) explicit sequential, action-based or structured (program) representation, or explicit claim of inspiration from human creation; (c) empirical evaluation reported."
+Exclusions,"Recognition-only; raster image-to-sketch or offline handwriting images; sketch used only as input; robotics without drawing output (robotic drawing kept); 3D sketches; CAD; animation of existing sketches; rule-based filters with no learned or optimised model; non-peer-reviewed repository deposits (SSRN, Zenodo, etc.; arXiv preprints kept); posters; reviews (used for snowballing)."
+Unresolved,"OpenAlex records whose abstract is missing or does not state whether the output is sequential; listed for full-text check, not counted as included."
+Keyword flags,"Computed automatically on abstracts (regex in column headers' sense); they are screening aids, not the D/J/P/B coding of S1, which uses full texts."
+Correction note,On 2026-11-15 the arXiv screening reasons were re-audited: 21 records wrongly excluded were included and the reasons of the others were recomputed with the same rules as the OpenAlex screening.
+Not searched,"Scopus, Web of Science, IEEE Xplore and ACM DL were not queried (no institutional API access); queries for them are given in Search_log.xlsx."

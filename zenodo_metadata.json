@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "upload_type": "dataset",
+    "title": "Supplementary material: Human-Inspired Generative AI: A Critical Review of Sequential and Structured Generation Approaches (2016-2026)",
+    "description": "Corpus, screening decisions and coding (dimensions D, J, P, B) of 50 sequential, structured and human-inspired generative approaches reviewed in the paper. All counts reported in the paper can be recomputed from these files.",
+    "creators": [
+      {
+        "name": "Moumtaz, Yosra",
+        "affiliation": "Mundiapolis University"
+      },
+      {
+        "name": "Chadi, Mohamed-Amine",
+        "affiliation": "Cadi Ayyad University"
+      },
+      {
+        "name": "Mouchawrab, Samar",
+        "affiliation": "Mundiapolis University"
+      }
+    ],
+    "license": "cc-by-4.0",
+    "access_right": "open",
+    "keywords": [
+      "systematic review",
+      "generative models",
+      "sketch generation",
+      "handwriting synthesis",
+      "human-like AI",
+      "evaluation"
+    ]
+  }
+}
