@@ -37,17 +37,17 @@ This dataset accompanies the conference paper above. It documents the corpus, th
 | Column | Values | Meaning |
 |---|---|---|
 | Eval. target | O, S, P | output, structure, process |
-| Human data used for TRAINING | none, outputs, process, U | human process = stroke sequences, trajectories or videos of making |
-| D | Y, N, U | explicit cognitive, perceptual or motor inspiration in the design |
-| J | Y, N, U | humans rate, prefer or classify generated outputs |
-| P | Y, N, U | generated order, trajectory, kinematics or temporal progression compared quantitatively with recorded human data |
-| B | Y, N, U | model compared with a population of human participants (accuracy patterns, errors, variability, choices) |
+| Human data used for TRAINING | none, outputs, process, ND | human process = stroke sequences, trajectories or videos of making |
+| D | Y, N, ND | explicit cognitive, perceptual or motor inspiration in the design |
+| J | Y, N, ND | humans rate, prefer or classify generated outputs |
+| P | Y, N, ND | generated order, trajectory, kinematics or temporal progression compared quantitatively with recorded human data |
+| B | Y, N, ND | model compared with a population of human participants (accuracy patterns, errors, variability, choices) |
 
-D, J, P and B are independent dimensions, not a scale. `U` (undetermined) means not determinable from the consulted sources. Codes were assigned from abstracts and official pages and revised by full-text reading where available; the evidence for revised codes is in column `Basis / note`. Coding was done by a single coder.
+D, J, P and B are independent dimensions, not a scale. `ND` (not determined) means not determinable from the consulted sources. Codes were assigned from abstracts and official pages and revised by full-text reading where available; the evidence for revised codes is in column `Basis / note`. Coding was done by a single coder.
 
 ## Main counts (n = 50)
 
-Trained on human process data 29; D 13; J 15; P 10; B 5; no J, P or B confirmed 26; J, P and B all coded N 24; entries with at least one `U` 7; preprints 5.
+Trained on human process data 29; D 13; J 15; P 10; B 5; no J, P or B confirmed 26; J, P and B all coded N 24; entries with at least one `ND` 7; preprints 5.
 
 ## Licence
 

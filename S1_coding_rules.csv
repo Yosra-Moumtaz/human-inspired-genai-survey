@@ -1,4 +1,4 @@
-Source,"Coded from the abstract, official proceedings/publisher page and project page of each work (single coder). 'U' (undetermined) = not determinable from these sources; to be resolved by full-text reading."
+Source,"Coded from the abstract, official proceedings/publisher page and project page of each work (single coder). 'ND' (not determined) = not determinable from these sources; to be resolved by full-text reading."
 Training data,"none: no human data; outputs: human-made images/sketches without temporal order; process: human stroke sequences, trajectories or videos of making."
 D,"Yes if the authors explicitly motivate the design by human cognition, perception or motor control."
 J,"Yes if humans rate, prefer or classify generated outputs."
